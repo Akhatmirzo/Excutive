@@ -17,6 +17,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 
@@ -607,7 +608,7 @@ nav {
 }
 
 .countries__info {
-    width: 949px;
+    max-width: 949px;
     color: #7D7D7D;
     text-align: center;
     font-size: 22px;
@@ -670,7 +671,7 @@ nav {
 }
 
 .testimonials__info {
-    width: 949px;
+    max-width: 949px;
     color: #7D7D7D;
     text-align: center;
     font-size: 22px;
@@ -681,8 +682,8 @@ nav {
 
 .testimonials__carousel {
     width: 100%;
-    overflow-y: hidden;
-    overflow-x: scroll;
+    /* overflow-y: hidden;
+    overflow-x: scroll; */
     background-color: white;
 }
 
@@ -698,6 +699,7 @@ nav {
 
 .testi__carousel__cards {
     display: flex;
+    flex-direction: column;
     gap: 61px;
 }
 

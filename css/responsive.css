@@ -10,6 +10,10 @@
     nav {
         gap: 40px;
     }
+
+    .nav__links {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -133,6 +137,13 @@
         margin-bottom: 119px;
     }
 
+    /* ! End of */
+
+    /* ! Footer */
+    .footer__wrap {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
     /* ! End of */
 }
 
@@ -314,4 +325,12 @@
         letter-spacing: 0.444px;
     }
     /* ! End of */
+
+    .testi__carousel__card {
+        min-width: 100%;
+    }
+
+    .countries__card {
+        width: 100%;
+    }
 }
